@@ -1,9 +1,9 @@
 
-import random #import library dari random
-list =[1] # variabel berbentuk list , sama seperti array
-for x in range(0,10): #perulangan dengan menggunakan range
-    dataRange = random.randrange(0,20) #melakukan  random data dari 0 - 20
-    list.append(dataRange) #menambahkan data dari list
+import random
+list =[1]
+for x in range(0,10):
+    dataRange = random.randrange(0,20)
+    list.append(dataRange)
 
 print "-------------------------------"
 print "Program Menebak Angka dari 1 - 20 "
@@ -12,7 +12,7 @@ print "syntax '?' untuk bantuan , syntax 'help' for jawaban"
 jawaban = str(random.choice(list))
 a = ''
 while True:
-    input = raw_input("Masukkan Tebakan Anda : ") #mendapatkan hasil inputan dari user
+    input = raw_input("Masukkan Tebakan Anda : ")
     if (input == jawaban):
         print "Selamat Anda Menang"
         break
