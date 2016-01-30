@@ -36,5 +36,3 @@ while True:
         #input = raw_input("Masukan Tebakan Anda : ")
         continue
 
-
-
